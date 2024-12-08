@@ -1,1 +1,1 @@
-pandoc todo.md -o todo.html --mathjax --template=template.html
+pandoc todo.md -o index.html --mathjax --template=template.html --quiet
