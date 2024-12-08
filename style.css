@@ -88,7 +88,7 @@ body {
 .container {
     width: 100%;
     max-width: 1200px; /* Wide container for larger screens */
-    background: #ffffff; /* Clean white background for contrast */
+    background: beige; /* Clean white background for contrast */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     border-radius: 8px; /* Rounded corners */
     overflow: hidden;
