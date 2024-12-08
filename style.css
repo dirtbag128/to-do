@@ -1,0 +1,196 @@
+/* General body styling */
+body {
+    margin: 0;
+    font-family:
+        "Inter",
+        -apple-system,
+        BlinkMacSystemFont,
+        sans-serif;
+    background: #f5e6d3; /* Soft beige background */
+    color: #333; /* Dark grey for text */
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 1rem;
+    animation: body-color-change 2s infinite alternate ease-in-out; /* Smooth background color animation */
+    transition: background 1s ease;
+}
+
+@keyframes body-color-change {
+    0% {
+        background: #f5e6d3; /* Soft beige */
+    }
+    50% {
+        background: #d9c7b2; /* Muted taupe */
+    }
+    100% {
+        background: #f5e6d3; /* Back to beige */
+    }
+}
+
+#main-tit {
+    font-size: 3.5em; /* Bigger text for better visibility */
+    font-family: "Poppins", sans-serif; /* Modern font for elegance */
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(90deg, #333, #555, #777); /* Default gradient */
+    background-size: 200%;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation:
+        main-tit-color-change 6s infinite alternate ease-in-out,
+        gradient-shift 5s infinite linear; /* Synchronize with body animation */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* Slight depth for better readability */
+}
+
+@keyframes main-tit-color-change {
+    0% {
+        background: linear-gradient(
+            90deg,
+            #1e90ff,
+            /* Dodger blue */ #6495ed,
+            /* Cornflower blue */ #87cefa /* Light sky blue */
+        ); /* Cooler tones for readability */
+    }
+    50% {
+        background: linear-gradient(
+            90deg,
+            #ffa07a,
+            /* Light salmon */ #ff7f50,
+            /* Coral */ #ff6347 /* Tomato */
+        ); /* Warm tones contrasting cooler tones */
+    }
+    100% {
+        background: linear-gradient(
+            90deg,
+            #1e90ff,
+            /* Dodger blue */ #6495ed,
+            /* Cornflower blue */ #87cefa /* Light sky blue */
+        ); /* Back to cooler tones */
+    }
+}
+
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Main container styling */
+.container {
+    width: 100%;
+    max-width: 1200px; /* Wide container for larger screens */
+    background: #ffffff; /* Clean white background for contrast */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden;
+    padding: 1.5rem;
+    position: relative;
+}
+
+/* To-Do List Styling */
+.todo-list h1 {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 1000;
+    margin-bottom: 1.5rem;
+    color: paleturquoise;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(-20px);
+    transition:
+        opacity 1s ease,
+        transform 1s ease;
+}
+
+.todo-list h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #6a6a6a;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5rem;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition:
+        opacity 1s ease,
+        transform 0.002ms ease;
+}
+
+/* List styling */
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-list li {
+    margin-bottom: 1rem;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition:
+        opacity 0.8s ease,
+        transform 0.0001ms ease;
+}
+
+.task-list label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.task-list input[type="checkbox"] {
+    margin-right: 1rem;
+    width: 1rem;
+    height: 1rem;
+    accent-color: #ff6b6b; /* Checkbox color */
+}
+
+/* Nested list */
+.task-list ul {
+    margin-top: 0.5rem;
+    padding-left: 2rem;
+    border-left: 2px solid #f0f0f0; /* Subtle left-line for nested lists */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    body {
+        padding: 0.5rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .todo-list h1 {
+        font-size: 1.75rem;
+    }
+
+    .todo-list h2 {
+        font-size: 1.25rem;
+    }
+
+    .task-list input[type="checkbox"] {
+        width: 0.875rem;
+        height: 0.875rem;
+    }
+}
+
+/* Background canvas */
+#backgroundCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Places the canvas behind all other content */
+}
