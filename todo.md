@@ -511,7 +511,6 @@
 - [ ] Analyzing energy conservation in rolling and rotational systems
 - [ ] Application of rotational dynamics in real-world scenarios
 
-```markdown
 # Gravitation Topics To Study
 
 ## Prerequisites
