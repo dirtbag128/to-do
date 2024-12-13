@@ -42,23 +42,23 @@
 ---
 
 ### Overview
-- [ ] Definition and roles of biomolecules
-- [ ] Classes: Carbohydrates, proteins, nucleic acids, and lipids
+- [x] Definition and roles of biomolecules
+- [x] Classes: Carbohydrates, proteins, nucleic acids, and lipids
 
 ### Polysaccharides
-- [ ] Structure and classification of polysaccharides
-- [ ] Formation through glycosidic bonds
-- [ ] Types:
-  - [ ] Storage polysaccharides (e.g., starch, glycogen)
-  - [ ] Structural polysaccharides (e.g., cellulose, chitin)
-- [ ] Biological functions of polysaccharides
+- [x] Structure and classification of polysaccharides
+- [x] Formation through glycosidic bonds
+- [x] Types:
+  - [x] Storage polysaccharides (e.g., starch, glycogen)
+  - [x] Structural polysaccharides (e.g., cellulose, chitin)
+- [x] Biological functions of polysaccharides
 
 ### Proteins
-- [ ] Amino acid structure and properties
-- [ ] Protein structure levels: Primary, secondary, tertiary, quaternary
-- [ ] Protein folding and denaturation
-- [ ] Enzyme structure and mechanisms
-- [ ] Protein functions: Catalysis, signaling, transport, and more
+- [x] Amino acid structure and properties
+- [x] Protein structure levels: Primary, secondary, tertiary, quaternary
+- [x] Protein folding and denaturation
+- [x] Enzyme structure and mechanisms
+- [x] Protein functions: Catalysis, signaling, transport, and more
 
 ### Nucleotides and Nucleic Acids
 - [ ] Nucleotide structure: Phosphate, sugar, nitrogenous base
@@ -67,24 +67,24 @@
 - [ ] Nucleotide metabolism and energy transfer (e.g., ATP)
 
 ### Carbohydrates
-- [ ] Monosaccharides: Glucose, fructose, galactose
-- [ ] Disaccharides: Sucrose, lactose, maltose
-- [ ] Polysaccharides: Study from the section above
-- [ ] Glycosylation and carbohydrate modifications
+- [x] Monosaccharides: Glucose, fructose, galactose
+- [x] Disaccharides: Sucrose, lactose, maltose
+- [x] Polysaccharides: Study from the section above
+- [x] Glycosylation and carbohydrate modifications
 
 ### Lipids
-- [ ] Fatty acids and triglycerides
-- [ ] Phospholipids and membrane structure
-- [ ] Steroids and hormones
-- [ ] Lipid metabolism and energy storage
+- [x] Fatty acids and triglycerides
+- [x] Phospholipids and membrane structure
+- [x] Steroids and hormones
+- [x] Lipid metabolism and energy storage
 
 ### Enzymes
-- [ ] Enzyme structure and active sites
-- [ ] Mechanisms of catalysis
-- [ ] Enzyme kinetics: Michaelis-Menten theory
-- [ ] Types of enzyme inhibition: Competitive, non-competitive, uncompetitive
-- [ ] Regulation of enzyme activity
-- [ ] Coenzymes and cofactors
+- [x] Enzyme structure and active sites
+- [x] Mechanisms of catalysis
+- [x] Enzyme kinetics: Michaelis-Menten theory
+- [x] Types of enzyme inhibition: Competitive, non-competitive, uncompetitive
+- [x] Regulation of enzyme activity
+- [x] Coenzymes and cofactors
 
 ---
 
@@ -110,7 +110,7 @@
 
 ### Overview of Photosynthesis
 - [ ] Definition and significance of photosynthesis
-- [ ] General equation: \( 6CO_2 + 6H_2O + light \rightarrow C_6H_{12}O_6 + 6O_2 \)
+- [ ] General equation: $6CO_2 + 6H_2O + light \rightarrow C_6H_{12}O_6 + 6O_2$
 - [ ] Photosynthesis as an anabolic and endergonic process
 
 ### Light Reactions
@@ -132,7 +132,7 @@
 
 ### C4 and CAM Pathways
 - [ ] Differences between C3, C4, and CAM plants
-- [ ] Mechanism of CO\(_2\) fixation in C4 plants (Hatch-Slack pathway)
+- [ ] Mechanism of CO$_2$ fixation in C4 plants (Hatch-Slack pathway)
 - [ ] Adaptations in CAM plants for arid environments
 
 ---
@@ -151,8 +151,8 @@
 - [ ] **Julius von Sachs' Experiment**: Starch formation as an indicator of photosynthesis.
 - [ ] **T.W. Engelmann's Experiment**: Action spectrum of photosynthesis using a prism and algae.
 - [ ] **Robert Hill Reaction**: Demonstration of oxygen evolution in isolated chloroplasts.
-- [ ] **Calvin's Experiment**: Use of radioactive \( ^{14}C \) to elucidate the steps of the Calvin cycle.
-- [ ] **Blackman’s Law of Limiting Factors**: Effect of light, CO\(_2\), and temperature on the rate of photosynthesis.
+- [ ] **Calvin's Experiment**: Use of radioactive $^{14}C$ to elucidate the steps of the Calvin cycle.
+- [ ] **Blackman’s Law of Limiting Factors**: Effect of light, CO$_2$, and temperature on the rate of photosynthesis.
 - [ ] **Hydrilla Experiment**: Demonstration of oxygen evolution in submerged aquatic plants.
 
 ---
@@ -330,7 +330,7 @@
 - [ ] Applications in sustainable energy (e.g., hydrogen fuel cells, biofuels)
 - [ ] High-temperature thermochemistry in materials science
 
-## General Organic Chemistry: Naming of Compounds (IUPAC and Common Names)
+## General Organic Chemistry: Naming of Compounds
 
 ### Prerequisites
 - [ ] Understanding of basic chemical bonding (covalent bonds, sigma and pi bonds)
@@ -377,7 +377,7 @@
 - [ ] Esters:
 - [ ] Amides:
 - [ ] Nitriles:
-- [ ] Ethers: Common naming and IUPAC naming
+- [ ] Ethers:
 
 #### Compounds with Multiple Functional Groups
 - [ ] Identifying the principal functional group
